@@ -1,0 +1,23 @@
+
+Attendance table
+create table ATTENDANCE(Empno int(5)primary key,For_month varchar(2),Year int(4),CL int(2),PL int(2),ML int(2),LWP int(2));
+
+
+user table
+
+create database salarymanagement;
+use salarymanagement
+create table USERS(USER_ID int(10)primary key,password varchar(20),PIN int(7),NAME varchar(30),Office_ID int(7),emai_ID varchar(30));
+
+
+For employee
+
+create database salarymanagement;
+use salarymanagement;
+create table Employee(Empno int(5)primary key,Ename varchar(30),Sex varchar(2),Address varchar(100),City varchar(25),DOB date,DOJ date,Job varchar(20),Department varchar(20));
+
+for salary
+
+create database salarymanagement;
+use salarymanagement;
+create table Salary(Empno int(5) Primary Key,Basic Decimal(7,2),PF Decimal(6,2),CCA Decimal(6,2),HRA Decimal(6,2),DA Decimal(6,2),Gross Decimal(6,2),IT Decimal(6,2),Net Decimal(6,2));
